@@ -1,0 +1,9 @@
+c:\users\kr0siv\documents\visual studio 2015\Projects\LibraryTester\LibraryTester\bin\Debug\LibraryTester.exe.config
+c:\users\kr0siv\documents\visual studio 2015\Projects\LibraryTester\LibraryTester\bin\Debug\LibraryTester.exe
+c:\users\kr0siv\documents\visual studio 2015\Projects\LibraryTester\LibraryTester\bin\Debug\LibraryTester.pdb
+c:\users\kr0siv\documents\visual studio 2015\Projects\LibraryTester\LibraryTester\bin\Debug\FldigiController.dll
+c:\users\kr0siv\documents\visual studio 2015\Projects\LibraryTester\LibraryTester\bin\Debug\FldigiController.pdb
+c:\users\kr0siv\documents\visual studio 2015\Projects\LibraryTester\LibraryTester\obj\Debug\LibraryTester.csprojResolveAssemblyReference.cache
+c:\users\kr0siv\documents\visual studio 2015\Projects\LibraryTester\LibraryTester\obj\Debug\LibraryTester.exe
+c:\users\kr0siv\documents\visual studio 2015\Projects\LibraryTester\LibraryTester\obj\Debug\LibraryTester.pdb
+c:\users\kr0siv\documents\visual studio 2015\Projects\LibraryTester\LibraryTester\bin\Debug\CookComputing.XmlRpcV2.dll

@@ -1,0 +1,6 @@
+c:\users\kr0siv\documents\visual studio 2015\Projects\LibraryTester\FldigiController\obj\Debug\FldigiController.csprojResolveAssemblyReference.cache
+c:\users\kr0siv\documents\visual studio 2015\Projects\LibraryTester\FldigiController\bin\Debug\FldigiController.dll
+c:\users\kr0siv\documents\visual studio 2015\Projects\LibraryTester\FldigiController\bin\Debug\FldigiController.pdb
+c:\users\kr0siv\documents\visual studio 2015\Projects\LibraryTester\FldigiController\obj\Debug\FldigiController.dll
+c:\users\kr0siv\documents\visual studio 2015\Projects\LibraryTester\FldigiController\obj\Debug\FldigiController.pdb
+c:\users\kr0siv\documents\visual studio 2015\Projects\LibraryTester\FldigiController\bin\Debug\CookComputing.XmlRpcV2.dll
