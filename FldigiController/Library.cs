@@ -31,6 +31,8 @@ namespace FldigiController
         [XmlRpcMethod("main.get_trx_status")] //Grabs the current rx/tx status
         String MainGetTrxStatus();
 
+
+
     }
     public class flControl
     {
@@ -42,8 +44,13 @@ namespace FldigiController
 //            Console.WriteLine("DEBUG: Clearing text" + proxy.TextClearRx());
 //            Console.WriteLine("Version " + proxy.FldigiVersion());
 //            Console.WriteLine("DEBUG: Beginning Transmit" + proxy.MainTx());
-            Console.WriteLine();
-            Console.ReadLine();
+//            Console.WriteLine();
+//            Console.ReadLine();
+        }
+        public static void MainTx()
+        {
+            Flrpc proxy = XmlRpcProxyGen.Create<Flrpc>();
+            Console.WriteLine(proxy.MainTx());
         }
     }
 }

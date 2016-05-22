@@ -11,7 +11,8 @@ namespace LibraryTester
     {
         static void Main(string[] args)
         {
-            flControl.Connect();
+            //flControl.Connect();
+            flControl.MainTx();
         }
     }
 }
