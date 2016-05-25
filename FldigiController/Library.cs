@@ -1,4 +1,12 @@
-﻿using System;
+﻿/*
+ * KR0SIV's Convoluted C# Library Wrapper for FLdigi's XMLRPC Commands 
+ * You will find problems with this application, it's not even finished
+ * 
+ * Pull requests are highly appreciated, I'm happy to implement code that will improve on this library wrapper
+ * 
+ */
+
+using System;
 using CookComputing.XmlRpc;
 
 
@@ -32,25 +40,48 @@ namespace FldigiController
         String MainGetTrxStatus();
 
 
-
     }
+
     public class flControl
     {
         public static void Connect()
         {
             Console.WriteLine("DEBUG: Called from FldigiController"); //Prints debug line to console
             Flrpc proxy = XmlRpcProxyGen.Create<Flrpc>();
-//            Console.WriteLine("Current Status " + proxy.MainGetTrxStatus());
-//            Console.WriteLine("DEBUG: Clearing text" + proxy.TextClearRx());
-//            Console.WriteLine("Version " + proxy.FldigiVersion());
-//            Console.WriteLine("DEBUG: Beginning Transmit" + proxy.MainTx());
-//            Console.WriteLine();
-//            Console.ReadLine();
+            //            Console.WriteLine("Current Status " + proxy.MainGetTrxStatus());
+            //            Console.WriteLine("DEBUG: Clearing text" + proxy.TextClearRx());
+            //            Console.WriteLine("Version " + proxy.FldigiVersion());
+            //            Console.WriteLine("DEBUG: Beginning Transmit" + proxy.MainTx());
+            //            Console.WriteLine();
+            //            Console.ReadLine();
         }
         public static void MainTx()
         {
             Flrpc proxy = XmlRpcProxyGen.Create<Flrpc>();
             Console.WriteLine(proxy.MainTx());
+        }
+        public static void FldigiVersion()
+        {
+            Flrpc proxy = XmlRpcProxyGen.Create<Flrpc>();
+            Console.WriteLine(proxy.FldigiVersion());
+        }
+        public static void Command(string value)
+        {
+            if (value.Equals("MainTx")) 
+            {
+                flControl.MainTx(); //calls the maintx method
+                Console.ReadKey();
+            }
+            if (value.Equals("FldigiVersion"))
+            {
+                flControl.FldigiVersion(); //call the fldigiversion method
+                Console.ReadKey();
+            }
+            else
+            {
+                Console.WriteLine("ERROR: Command not found in method"); //placeholder
+                Console.ReadKey();
+            }
         }
     }
 }

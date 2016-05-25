@@ -12,7 +12,8 @@ namespace LibraryTester
         static void Main(string[] args)
         {
             //flControl.Connect();
-            flControl.MainTx();
+            //flControl.MainTx();
+            flControl.Command("FldigiVersion");
         }
     }
 }
