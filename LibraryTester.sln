@@ -8,7 +8,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryTester", "LibraryTes
 		{D48C690D-480B-4258-9A2D-9260E040C430} = {D48C690D-480B-4258-9A2D-9260E040C430}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FldigiController", "FldigiController\FldigiController.csproj", "{D48C690D-480B-4258-9A2D-9260E040C430}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FldigiWrapper", "FldigiController\FldigiWrapper.csproj", "{D48C690D-480B-4258-9A2D-9260E040C430}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

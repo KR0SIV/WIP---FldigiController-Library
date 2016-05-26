@@ -7,3 +7,5 @@ c:\users\kr0siv\documents\visual studio 2015\Projects\LibraryTester\LibraryTeste
 c:\users\kr0siv\documents\visual studio 2015\Projects\LibraryTester\LibraryTester\obj\Debug\LibraryTester.exe
 c:\users\kr0siv\documents\visual studio 2015\Projects\LibraryTester\LibraryTester\obj\Debug\LibraryTester.pdb
 c:\users\kr0siv\documents\visual studio 2015\Projects\LibraryTester\LibraryTester\bin\Debug\CookComputing.XmlRpcV2.dll
+C:\Users\KR0SIV\Documents\Visual Studio 2015\Projects\LibraryTester\LibraryTester\bin\Debug\xmlrpcwsc.dll
+C:\Users\KR0SIV\Documents\Visual Studio 2015\Projects\LibraryTester\LibraryTester\bin\Debug\xmlrpcwsc.pdb

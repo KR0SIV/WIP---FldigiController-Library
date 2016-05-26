@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using FldigiController;
+using FldigiWrapper; 
 
 namespace LibraryTester
 {
@@ -13,7 +13,9 @@ namespace LibraryTester
         {
             //flControl.Connect();
             //flControl.MainTx();
-            flControl.Command("FldigiVersion");
+            //flControl.Command("FldigiVersion");
+
+            FlControl.Test("main.tx");
         }
     }
 }

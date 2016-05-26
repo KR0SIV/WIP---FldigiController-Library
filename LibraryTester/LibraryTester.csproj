@@ -55,9 +55,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FldigiController\FldigiController.csproj">
+    <ProjectReference Include="..\FldigiController\FldigiWrapper.csproj">
       <Project>{d48c690d-480b-4258-9a2d-9260e040c430}</Project>
-      <Name>FldigiController</Name>
+      <Name>FldigiWrapper</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
